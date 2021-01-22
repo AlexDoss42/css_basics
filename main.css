@@ -27,3 +27,13 @@ body {
 h1 {
   font-family: sans-serif;
 }
+
+.main-header {
+  background-color: #2ddf5c;
+  width: 100%;
+  padding: 8px 16px;
+}
+
+.main-nav__item {
+  display: inline-block;
+}

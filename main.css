@@ -15,6 +15,10 @@ body {
   padding: 10px;
 }
 
+#plans {
+  text-align: center;
+}
+
 .section-title {
   color: #2ddf5c;
   font-family: inherit;

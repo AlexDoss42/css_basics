@@ -29,6 +29,17 @@ body {
   outline: none;
 }
 
+.backdrop {
+  position: fixed;
+  display: none;
+  top: 0;
+  left: 0;
+  z-index: 100;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
 .main-header {
   background-color: #2ddf5c;
   position: fixed;

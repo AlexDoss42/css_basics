@@ -15,18 +15,22 @@ for (var i = 0; i < selectPlanButton.length; i++) {
   });
 }
 
-noButton.addEventListener('click', function() {
-  // mobileNav.style.display = 'none';
-  mobileNav.classList.remove('open');
-  closeModal();
-});
+if(noButton) {
+  noButton.addEventListener('click', closeModal());
+}
 
-backdrop.addEventListener('click', closeModal());
+
+backdrop.addEventListener('click', function() {
+  closeModal();
+  mobileNav.classList.remove('open');
+});
 
 function closeModal() {
   // modal.style.display = 'none';
   // backdrop.style.display = 'none';
-  modal.classList.remove('open');
+  if(modal) {
+    modal.classList.remove('open');
+  }
   backdrop.classList.remove('open');
 }
 

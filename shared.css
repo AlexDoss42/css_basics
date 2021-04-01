@@ -80,7 +80,8 @@ body {
   margin: 0 1rem;
 }
 
-.main-nav__item a {
+.main-nav__item a,
+.mobile-nav__item a {
   text-decoration: none;
   color: #0e4f1f;
   font-weight: bold;
@@ -93,7 +94,8 @@ body {
   border-bottom: 5px solid white;
 }
 
-.main-nav__item--cta a {
+.main-nav__item--cta a,
+.mobile-nav__item--cta a {
   color: white;
   background-color: #ff1b68;
   padding: 0.5rem 1rem;
@@ -101,7 +103,9 @@ body {
 }
 
 .main-nav__item--cta a:hover,
-.main-nav__item--cta:active {
+.main-nav__item--cta:active,
+.mobile-nav__item--cta a:hover,
+.mobile-nav__item--cta:active {
   color: #ff1b68;
   background-color: white;
   border: none;

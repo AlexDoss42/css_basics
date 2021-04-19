@@ -141,12 +141,6 @@
   text-align: center;
 }
 
-.key-feature {
-  display: inline-block;
-  width: 30%;
-  vertical-align: top;
-}
-
 .key-feature__image {
   background-color: #ffcede;
   width: 128px;
@@ -162,6 +156,14 @@
   font-weight: bold;
   color: white;
   font-size: 1.25rem;
+}
+
+@media (min-width: 40rem) {
+  .key-feature {
+    display: inline-block;
+    width: 30%;
+    vertical-align: top;
+  }
 }
 
 .modal {

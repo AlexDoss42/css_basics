@@ -163,6 +163,7 @@
     display: inline-block;
     width: 30%;
     vertical-align: top;
+    max-width: 25rem;
   }
 }
 

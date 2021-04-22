@@ -60,14 +60,16 @@ body {
   text-decoration: none;
   font-weight: bold;
   font-size: 1.3rem;
+  display: inline-block;
   vertical-align: middle;
 }
 
+.main-header__brand img {
+  height: 2.5rem;
+}
+
 .main-nav {
-  display: inline-block;
-  text-align: right;
-  width: calc(100% - 74px);
-  vertical-align: middle;
+  display: none;
 }
 
 .main-nav__items {
@@ -138,6 +140,18 @@ body {
 
 .mobile-nav__item a {
   font-size: 1.5rem;
+}
+
+@media (min-width: 40rem) {
+  .toggle-button {
+    display: none;
+  }
+  .main-nav {
+    display: inline-block;
+    text-align: right;
+    width: calc(100% - 44px);
+    vertical-align: middle;
+  }
 }
 
 .main-footer {

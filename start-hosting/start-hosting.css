@@ -15,3 +15,17 @@ main {
   margin-top: 1rem;
   width: 100%;
 }
+
+.signup-form input[type='checkbox'] {
+  display: inline-block;
+}
+
+.signup-form input[type='checkbox'] + label {
+  display: inline-block;
+  width: auto;
+}
+
+.signup-form button[type='submit'] {
+  display: block;
+  margin-top: 1rem;
+}

@@ -163,10 +163,13 @@
 
 @media (min-width: 40rem) {
   .key-feature {
-    display: inline-block;
     width: 30%;
-    vertical-align: top;
     max-width: 25rem;
+  }
+
+  .key-feature__list {
+    display: flex;
+    justify-content: center;
   }
 }
 
